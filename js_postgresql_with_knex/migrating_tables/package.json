@@ -14,7 +14,7 @@
   "author": "Maxwell Gordon <maxwelljgordon@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "knex": "^0.15.2",
+    "knex": "^0.19.5",
     "pg": "^7.6.1"
   }
 }
