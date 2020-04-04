@@ -1,0 +1,36 @@
+#container {
+  height: 700px;
+  width: 700px;
+}
+
+div.box {
+  width: 50%;
+  height: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* STRETCH */
+div.box {
+  border-bottom-right-radius: 100%;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}

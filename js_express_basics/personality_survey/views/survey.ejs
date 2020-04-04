@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Personality Survey</title>
+  </head>
+  <body>
+    <h1>Personality Survey</h1>
+    <form action="/results" method="post">
+      <div>
+        <h3>1. You work best:</h3>
+        <input type="radio" name="deadline" value="deadline">
+        <label for="deadline">
+            With deadlines
+        </label>
+        <input type="radio" name="deadline" value="withoutDeadline">
+        <label for="deadline">
+            Without deadlines
+        </label>
+      </div>
+      <div>
+        <h3>2. You consider yourself more:</h3>
+        <input type="radio" name="rational" value="rational">
+        <label for="rational"/>
+            Rational
+        </label>
+        <input type="radio" name="rational" value="compassionate"/>
+        <label for="rational">
+            Compassionate
+        </label>
+      </div>
+      <div>
+        <h3>3. You are more interested in:</h3>
+        <input type="radio" name="ideas" value="ideas"/>
+        <label for="ideas">
+            Ideas
+        </label>
+        <input type="radio" name="ideas" value="facts"/>
+        <label for="ideas">
+            Facts
+        </label>
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>

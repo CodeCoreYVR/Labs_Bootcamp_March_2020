@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joe's Pizza</title>
+    <link rel="stylesheet" href="solution.css">
+  </head>
+  <body>
+    <h1>Joe's Pizza</h1>
+
+    <form action="solution.html" method="post">
+      <h2>Order Form</h2>
+      <div class="">
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name"
+          placeholder="Enter your first name"/>
+      </div>
+      <div class="">
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" placeholder="Enter your last name"/>
+      </div>
+      <div class="">
+        <label for="password">Password:</label>
+        <input type="password" name="password"/>
+      </div>
+      <div class="">
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email"/>
+      </div>
+      <div class="">
+        <label for="order-method">Order Method:</label>
+        Take Out<input type="radio" name="order-method" value="take-out"/>
+        Delivery<input type="radio" name="order-method" value="delivery"/>
+      </div>
+      <div class="">
+        <label for="toppings">Toppings:</label>
+        Cheese<input type="checkbox" name="toppings" value="cheese"/>
+        Mushrooms<input type="checkbox" name="toppings" value="mushrooms"/>
+        Peppers<input type="checkbox" name="toppings" value="peppers"/>
+        Olives<input type="checkbox" name="toppings" value="olives"/>
+      </div>
+      <div>
+        <label for="size">Size:</label>
+        <select class="" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+      </div>
+      <div class="">
+        <label for="comments">Comments:</label>
+        <textarea name="comments" rows="8" cols="73"></textarea>
+      </div>
+      <button type="submit" name="submit">Submit Form</button>
+      <button type="reset" name="reset">Reset Form</button>
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+	"name": "car_status",
+	"version": "1.0.0",
+	"description": "Enter the year of your car, and I'll tell you how old it is",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"author": "Maxwell Gordon",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^2.5.7",
+		"express": "^4.16.2",
+		"morgan": "^1.9.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.14.11"
+	}
+}

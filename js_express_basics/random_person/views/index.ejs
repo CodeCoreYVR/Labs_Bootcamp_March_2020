@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Random Name Picker</h1>
+    <form action="/" method="post">
+      <div>
+        <div><label for="names">Names</label></div>
+        <textarea name="names" rows="8" cols="80"><%= namesList %></textarea>
+      </div>
+      <button type="submit" name="button">Submit</button>
+    </form>
+    <% if (winnersName) { %>
+      <h1>The Winner is... <%= winnersName %></h1>
+    <% } %>
+
+  </body>
+</html>

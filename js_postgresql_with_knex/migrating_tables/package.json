@@ -1,0 +1,20 @@
+{
+  "name": "knex_labs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db:drop": "dropdb --if-exists --echo knex_labs",
+    "db:create": "createdb --echo knex_labs",
+    "db:migrate": "knex migrate:latest",
+    "db:reset": "npm run db:drop && npm run db:create && npm run db:migrate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxwell Gordon <maxwelljgordon@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.15.2",
+    "pg": "^7.6.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "download_star_wars_character_information",
+  "version": "1.0.0",
+  "description": "Go to the [Star Wars API](https://swapi.co/). Get familiar with it. Once you're familiar, you will use [`node-fetch`](https://github.com/bitinn/node-fetch) to download the JSON for the first 10 people. You can get the JSON for a person through the `https://swapi.co/api/people/:id` URL.",
+  "main": "solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxwell Gordon",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.2.1"
+  }
+}

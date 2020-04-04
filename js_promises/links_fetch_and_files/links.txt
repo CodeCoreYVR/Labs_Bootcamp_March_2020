@@ -1,0 +1,5 @@
+https://swapi.co/api/people/20/
+https://anapioficeandfire.com/api/characters/583
+https://swapi.co/api/starships/9/
+https://sv443.net/jokeapi/category/Any
+https://anapioficeandfire.com/api/houses/378
